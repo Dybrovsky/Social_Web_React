@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /*grip-gap: 10px;*/
+    grid-template-areas:
+'hd hd'
+'nv ct';
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.wrapper img{
+    width: 900px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.content {
+    grid-area: ct;
+    background-color: burlywood;
+
+}

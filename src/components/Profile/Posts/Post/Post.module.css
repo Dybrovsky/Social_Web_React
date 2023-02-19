@@ -1,0 +1,19 @@
+.content {
+    grid-area: ct;
+    background-color: burlywood;
+}
+
+.post_item img{
+    width: 50px;
+    border-radius: 50px;
+    outline: 2px solid black;
+}
+
+.post_item{
+    margin: 20px;
+    color: gray;
+}
+
+.likes{
+    color: whitesmoke;
+}

@@ -1,0 +1,35 @@
+.nav {
+    grid-area: nv;
+    background-color: plum;
+}
+
+.item{
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.active{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/*.item:link {*/
+/*    background-color: coral;*/
+/*}*/
+/*.item:visited {*/
+/*    background-color: cyan;*/
+/*}*/
+.item:hover {
+    background-color: blueviolet;
+    border-radius: 25px;
+    padding: 10px;
+}
+/*.item:active {*/
+/*    background-color: DarkSalmon ;*/
+/*    border: 1px solid;*/
+/*}*/
+
+
+
